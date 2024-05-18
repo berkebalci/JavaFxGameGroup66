@@ -11,7 +11,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
 
-public class DynamicHexagonalGrid extends Application {
+public class HexagonalGrid extends Application {
 
     final int WIDTH = 1100;
     final int HEIGHT = 800;
