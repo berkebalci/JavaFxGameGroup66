@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 
 
-public class HelloApplication extends Application {
+public class MAIN extends Application {
     private static final int SIZE = 11; // 11x11 hex board
     private static final double HEX_SIZE = 20; // Size of each hexagon
 
