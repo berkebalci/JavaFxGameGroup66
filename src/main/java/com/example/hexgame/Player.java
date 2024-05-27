@@ -1,33 +1,26 @@
 package com.example.hexgame;
 
+
+
+
+
 import javafx.scene.paint.Color;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Player {
-    String name;
-    Color color;
-    ArrayList visitedList;
+    private final String name;
+    private final Color color;
 
-    public Player(String name,Color color,ArrayList visited){
+    public Player(String name, Color color) {
         this.name = name;
         this.color = color;
-        this.visitedList = visited;
-    }
-    String getPlayerName(){
-        return this.name;
-    }
-    Color getColor(){
-        return this.color;
     }
 
-    ArrayList getVisitedListofPlayer(){
-        return this.visitedList;
+    public String getName() {
+        return name;
     }
 
-    setVisitedList(){
-
+    public Color getColor() {
+        return color;
     }
-
 }
+
