@@ -163,5 +163,10 @@ public class HexagonalGrid extends Application {
         System.out.println("Game started.");
         updateStatusLabel();
     }
-
+    public static void main(String[] args) {
+        launch(args);
+    }
 }
+
+
+
